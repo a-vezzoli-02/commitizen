@@ -303,6 +303,12 @@ data = {
                         "help": "bump to the given version (e.g: 1.5.3)",
                         "metavar": "MANUAL_VERSION",
                     },
+                    {
+                        "name": ["--skip-count"],
+                        "action": "store_true",
+                        "default": False,
+                        "help": "Executes bumps even if no commits have been found",
+                    },
                 ],
             },
             {
